@@ -2,9 +2,15 @@
 automated script for VLESS, VMess and Trojan-Go
 
 ## Usage
+单独安装trojan go
 ```sh
 
 bash <(curl -sL https://raw.githubusercontent.com/Jason6111/v2ray-tcp-tls-web/master/install.sh) && v2script
+```
+混合安装
+```sh
+
+curl -fsSL https://raw.githubusercontent.com/Jason6111/v2ray-tcp-tls-web/vless/src/v2gun.sh -o ~/v2gun.sh && bash ~/v2gun.sh
 ```
 To run the script again once downloaded, just use the following command:
 ```
