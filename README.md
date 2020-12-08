@@ -3,7 +3,8 @@ automated script for VLESS, VMess and Trojan-Go
 
 ## Usage
 ```sh
-curl -fsSL https://raw.githubusercontent.com/phlinhng/v2ray-tcp-tls-web/vless/src/v2gun.sh -o ~/v2gun.sh && bash ~/v2gun.sh
+
+bash <(curl -sL https://raw.githubusercontent.com/Jason6111/v2ray-tcp-tls-web/master/install.sh) && v2script
 ```
 To run the script again once downloaded, just use the following command:
 ```
